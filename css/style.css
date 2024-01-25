@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Saira Condensed', sans-serif;
+    background-image: url(../img/jay.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    margin: 0;
+}
+
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #6e4a5d;
+    transition: color 0.5s ease;
+}
+
+h1 .logo:hover {
+    color: #a7797a;
+}
+
+.navlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+li a:hover .link {
+    color: #042e27;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d9d5ca;
+    margin: 0 10px;
+    transition: color 0.5s ease
+}
+
+.icon li {
+    text-decoration: none;
+    color: #d9d5ca;
+    font-size: 1.8em;
+    margin-right: 15px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon a:hover {
+    color: #042e27;
+}
